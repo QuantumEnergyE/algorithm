@@ -11,3 +11,4 @@ def bubble_sort(data):
             if data[i] > data[i + 1]:
                 data[i], data[i + 1] = data[i + 1], data[i]
                 is_sorted = False
+        pos -= 1

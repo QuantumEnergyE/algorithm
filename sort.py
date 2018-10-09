@@ -4,11 +4,11 @@ def quick_sort(data):
 
 def bubble_sort(data):
     is_sorted = False
-    pos = len(data) - 1
+    length = len(data) - 1
     while not is_sorted:
         is_sorted = True
-        for i in range(pos):
+        for i in range(length):
             if data[i] > data[i + 1]:
                 data[i], data[i + 1] = data[i + 1], data[i]
                 is_sorted = False
-        pos -= 1
+        length -= 1
